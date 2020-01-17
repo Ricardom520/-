@@ -41,11 +41,16 @@
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@hot-loader/react-dom": "^16.11.0+4.12.16",
-    "antd": "^3.26.5",
+    "antd": "^3.26.7",
     "dva": "^2.4.1",
+    "echarts": "^4.6.0",
+    "echarts-for-react": "^2.0.15-beta.1",
+    "fusioncharts": "^3.15.0-sr.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-fusioncharts": "^3.0.1",
     "react-hot-loader": "^4.12.18",
+    "react-pie3d": "^1.0.0",
     "react-router-dom": "^5.1.2",
     "wangeditor": "^3.1.1"
   }

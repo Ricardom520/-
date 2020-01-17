@@ -61,12 +61,12 @@ class MenuSlef extends Component {
                     </ul>
                 </div>
                 <div className="content">
-                    <Route>
+                    <Router>
                         <Switch>
-                            <Route path="/explorer/self" component={Self}/>
                             <Route path="/explorer/self/account" component={Account}/>
+                            <Route path="/explorer/self" component={Self}/>
                         </Switch>
-                    </Route>
+                    </Router>
                 </div>
             </Fragment>
         )
